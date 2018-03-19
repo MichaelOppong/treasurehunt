@@ -1,0 +1,22 @@
+#harry{
+    width:300px;
+}
+
+#frog{
+    width:100px;
+}
+#ink{
+    width:300px;
+}
+#dementor{
+    width:200px;
+}
+body{
+    font-family: "arial";
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+.spells{
+    height: 200px;    
+}
