@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 $("#revelio").click(function(){
     $("#frog").slideToggle();
 });
@@ -8,4 +10,6 @@ $("#aparacium").click(function(){
 
 $("#expecto").click(function(){
     $("#dementor").toggle();
+});
+
 });
