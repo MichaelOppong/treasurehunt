@@ -1,15 +1,26 @@
 $(document).ready(function() {
 
-$("#revelio").click(function(){
-    $("#frog").slideToggle();
-});
+$("#hiddenPic").hide();
+$(".hooray").hide();
 
-$("#aparacium").click(function(){
-    $("#ink").fadeToggle();
+$("button").click(function(){
+    $("#secretMessage").append("Now double click here...");
 });
-
-$("#expecto").click(function(){
-    $("#dementor").toggle();
+$("#secretMessage").dblclick(function(){
+    $("#hiddenPic").show();
+    $("#secretMessage").text("Touch the bird's nose");
+});
+$("#hiddenPic").hover(function(){
+    $("#secretMessage").text("Nice job. You'll find your next clue by clicking on the treasure");
+});
+$("#treasure").click(function(){
+    $("body").css("background", "aqua");
+});
+$("h1").click(function(){
+    $("p").hide();
+    $("img").hide();
+    $("button").hide();
+    $(".hooray").show();
 });
 
 });
