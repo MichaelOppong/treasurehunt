@@ -1,22 +1,7 @@
-#harry{
-    width:300px;
-}
-
-#frog{
-    width:100px;
-}
-#ink{
-    width:300px;
-}
-#dementor{
-    width:200px;
+#secretMessage3{
+    color: white;    
 }
 body{
-    font-family: "arial";
-    color:white;
-    background-color: black;
+    font-family: 'Gloria Hallelujah', cursive;
     text-align: center;
-}
-.spells{
-    height: 200px;    
 }
