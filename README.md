@@ -1,1 +1,1 @@
-# Unit 5 Project 1: jQuery Spell Book
+# Unit 5 Project 2: Treasure Hunt
