@@ -8,7 +8,7 @@ $("button").click(function(){
 });
 $("#secretMessage").dblclick(function(){
     $("#hiddenPic").show();
-    $("#secretMessage").text("Touch the bird's nose");
+    $("#secretMessage").text("Touch the bird's beak");
 });
 $("#hiddenPic").hover(function(){
     $("#secretMessage").text("Nice job. You'll find your next clue by clicking on the treasure");
